@@ -22,5 +22,19 @@ namespace ValidationCantroleDemo
                 lblOutput.Text = txtName.Text.Trim().ToUpper();
             }
         }
+
+        protected void Unnamed_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            string a = args.Value.Trim();
+
+            if(a.Length >= 10)
+            {
+                args.IsValid = true;
+            }
+            else
+            {
+                args.IsValid = false;
+            }
+        }
     }
 }

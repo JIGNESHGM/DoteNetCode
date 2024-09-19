@@ -11,7 +11,7 @@ namespace ValidationCantroleDemo
 {
 
 
-    public partial class Demo
+    public partial class NumberPageOperation
     {
 
         /// <summary>
@@ -24,210 +24,183 @@ namespace ValidationCantroleDemo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// vlsRegistration control.
+        /// ValidationSummarySingle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary vlsRegistration;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummarySingle;
 
         /// <summary>
-        /// lblName control.
+        /// lblSingleDigitNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblName;
+        protected global::System.Web.UI.WebControls.Label lblSingleDigitNumber;
 
         /// <summary>
-        /// txtName control.
+        /// txtSingleDigitNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.TextBox txtSingleDigitNumber;
 
         /// <summary>
-        /// rfdName control.
+        /// rfvSingleDigitNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfdName;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSingleDigitNumber;
 
         /// <summary>
-        /// lblAge control.
+        /// rvSingleDigit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAge;
+        protected global::System.Web.UI.WebControls.RangeValidator rvSingleDigit;
 
         /// <summary>
-        /// txtAge control.
+        /// lblSingleDigitOperation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAge;
+        protected global::System.Web.UI.WebControls.Label lblSingleDigitOperation;
 
         /// <summary>
-        /// rfdAge control.
+        /// ddlSingleDigitOperation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfdAge;
+        protected global::System.Web.UI.WebControls.DropDownList ddlSingleDigitOperation;
 
         /// <summary>
-        /// rnvAge control.
+        /// btnSingleDigitOperation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator rnvAge;
+        protected global::System.Web.UI.WebControls.Button btnSingleDigitOperation;
 
         /// <summary>
-        /// lblPassword control.
+        /// txtSingleDigitAnswer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtSingleDigitAnswer;
 
         /// <summary>
-        /// txtPassword control.
+        /// ValidationSummaryDouble control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummaryDouble;
 
         /// <summary>
-        /// rfvPassword control.
+        /// lblFirstNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvPassword;
+        protected global::System.Web.UI.WebControls.Label lblFirstNumber;
 
         /// <summary>
-        /// lblConformPassword control.
+        /// txtFirstNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblConformPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtFirstNumber;
 
         /// <summary>
-        /// txtConformPassword control.
+        /// rfvFirstNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtConformPassword;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFirstNumber;
 
         /// <summary>
-        /// rfvConformPassword control.
+        /// lblSecondNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvConformPassword;
+        protected global::System.Web.UI.WebControls.Label lblSecondNumber;
 
         /// <summary>
-        /// cmpConfromPassword control.
+        /// txtSecondNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cmpConfromPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtSecondNumber;
 
         /// <summary>
-        /// lblDepartment control.
+        /// rfvSecondNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDepartment;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSecondNumber;
 
         /// <summary>
-        /// txtDepartment control.
+        /// lblDoubleDigitOperation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDepartment;
+        protected global::System.Web.UI.WebControls.Label lblDoubleDigitOperation;
 
         /// <summary>
-        /// rfvDepartment control.
+        /// ddlDoubleDigitOperation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDepartment;
+        protected global::System.Web.UI.WebControls.DropDownList ddlDoubleDigitOperation;
 
         /// <summary>
-        /// revDepartment control.
+        /// btnDoubleDigitOperation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revDepartment;
+        protected global::System.Web.UI.WebControls.Button btnDoubleDigitOperation;
 
         /// <summary>
-        /// lblAddress control.
+        /// txtDoubleDigitAnswer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAddress;
-
-        /// <summary>
-        /// txtAddress control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAddress;
-
-        /// <summary>
-        /// btnSubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
-
-        /// <summary>
-        /// lblOutput control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOutput;
+        protected global::System.Web.UI.WebControls.TextBox txtDoubleDigitAnswer;
     }
 }
