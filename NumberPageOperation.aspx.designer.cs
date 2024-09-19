@@ -60,13 +60,13 @@ namespace ValidationCantroleDemo
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSingleDigitNumber;
 
         /// <summary>
-        /// rvSingleDigit control.
+        /// revSingleDigit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator rvSingleDigit;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revSingleDigit;
 
         /// <summary>
         /// lblSingleDigitOperation control.
@@ -141,6 +141,15 @@ namespace ValidationCantroleDemo
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFirstNumber;
 
         /// <summary>
+        /// revFirstNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revFirstNumber;
+
+        /// <summary>
         /// lblSecondNumber control.
         /// </summary>
         /// <remarks>
@@ -166,6 +175,15 @@ namespace ValidationCantroleDemo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvSecondNumber;
+
+        /// <summary>
+        /// revSecondNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revSecondNumber;
 
         /// <summary>
         /// lblDoubleDigitOperation control.
